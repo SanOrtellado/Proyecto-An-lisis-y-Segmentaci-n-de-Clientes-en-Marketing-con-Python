@@ -1,6 +1,29 @@
 # 📊 Proyecto de Marketing con Python – Segmentación de Clientes  
 
-Este proyecto demuestra cómo aplicar **análisis RFM (Recencia, Frecuencia, Monto)** y **Machine Learning (K-Means)** para segmentar clientes en un caso de marketing digital.  
+Este proyecto demuestra cómo aplicar **análisis RFM (Recencia, Frecuencia, Monto)** y **Machine Learning (K-Means)** para segmentar clientes en un caso de marketing digital.
+
+## Mapa Conceptual: Usos de Python en Netflix
+
+<img width="914" height="629" alt="image" src="https://github.com/user-attachments/assets/b0a37919-dfa9-455c-b679-60a5e37d9ec6" />
+
+** Este mapa conceptual de cómo Netflix usa Python en sus distintos procesos.
+
+*En el centro está "Netflix y Python".
+
+*De ahí salen las ramas principales:
+
+/ Gestión Operativa
+
+/ Procesamiento de Datos
+
+/ Visualización
+
+/ Automatización
+
+/ Machine Learning
+
+// Cada una se conecta con las actividades específicas que mencionaba el texto (financiación, ETL, recomendaciones, portadas dinámicas, etc.
+
 
 ## 📂 Archivos incluidos
 - `clientes_ficticios.csv` → Dataset ficticio con 50 clientes y sus datos de compras.  
