@@ -6,7 +6,7 @@ Este proyecto demuestra cómo aplicar **análisis RFM (Recencia, Frecuencia, Mon
 
 <img width="914" height="629" alt="image" src="https://github.com/user-attachments/assets/b0a37919-dfa9-455c-b679-60a5e37d9ec6" />
 
-** Este mapa conceptual muetras cómo Netflix usa Python en sus distintos procesos.
+** Este mapa conceptual muestra cómo Netflix usa Python en sus distintos procesos.
 
 *En el centro está "Netflix y Python".
 
