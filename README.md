@@ -67,6 +67,38 @@ plt.legend(title='Segmento')
 plt.show()
 <img width="806" height="510" alt="image" src="https://github.com/user-attachments/assets/c887786e-6208-4368-90e1-c223fc462bf2" />
 
+## 📈 Análisis descriptivo de los segmentos
+
+El gráfico muestra la segmentación de clientes utilizando el modelo RFM (Recencia, Frecuencia, Monto) con K-Means.
+
+Eje X (Recencia): número de días desde la última compra. Valores más bajos indican clientes recientes.
+
+Eje Y (Monto): total gastado por cliente en ARS.
+
+Cada color representa un segmento detectado por K-Means:
+
+🟦 Segmento 0: clientes de bajo gasto y compras recientes → perfil de clientes nuevos o básicos.
+
+🟧 Segmento 1: clientes con gasto medio/alto y frecuencia intermedia → clientes valiosos y consistentes, considerados “VIPs”.
+
+🟩 Segmento 2: clientes con frecuencia y gasto moderados → clientes leales, con buen potencial de retención.
+
+🟥 Segmento 3: clientes de alto gasto en el pasado, pero con alta recencia → clientes en riesgo de abandono, ideales para campañas de retención.
+
+📌 Conclusiones
+
+El modelo permite diferenciar clientes activos, leales, VIPs y clientes en riesgo.
+
+Estos insights pueden usarse para estrategias de marketing personalizadas:
+
+Descuentos para clientes en riesgo.
+
+Programas de fidelización para leales.
+
+Promociones exclusivas para VIPs.
+
+Campañas de bienvenida para nuevos.
+
 
 ## 🚀 Objetivo del proyecto
 - Analizar clientes usando **RFM**.  
