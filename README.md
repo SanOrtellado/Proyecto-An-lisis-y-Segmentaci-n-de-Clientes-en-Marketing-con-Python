@@ -5,6 +5,7 @@ Este proyecto demuestra cómo aplicar **análisis RFM (Recencia, Frecuencia, Mon
 ## 📂 Archivos incluidos
 - `clientes_ficticios.csv` → Dataset ficticio con 50 clientes y sus datos de compras.  
 - `proyecto_marketing_python.ipynb` → Notebook en Python (ejecutar en Jupyter o Google Colab) con el análisis paso a paso.
+
 import pandas as pd
 import numpy as np
 import seaborn as sns
@@ -27,6 +28,7 @@ data = {
 df = pd.DataFrame(data)
 df['RECENCIA'] = (pd.to_datetime('2025-09-30') - df['FECHA_ULTIMA_COMPRA']).dt.days
 df.head()
+
 <img width="538" height="184" alt="image" src="https://github.com/user-attachments/assets/fe1ac721-b4a2-407c-ad41-5ffcb38ad036" />
 
 
@@ -54,6 +56,7 @@ X_scaled = scaler.fit_transform(X)
 kmeans = KMeans(n_clusters=4, random_state=42, n_init=10)
 rfm['Segmento'] = kmeans.fit_predict(X_scaled)
 rfm.head()
+
 <img width="313" height="176" alt="image" src="https://github.com/user-attachments/assets/96d53f2e-60d6-4405-977e-a989e8e1f8d2" />
 
 
@@ -65,17 +68,18 @@ plt.xlabel('Recencia (días desde última compra)')
 plt.ylabel('Monto total gastado (ARS)')
 plt.legend(title='Segmento')
 plt.show()
+
 <img width="806" height="510" alt="image" src="https://github.com/user-attachments/assets/c887786e-6208-4368-90e1-c223fc462bf2" />
 
 ## 📈 Análisis descriptivo de los segmentos
 
-El gráfico muestra la segmentación de clientes utilizando el modelo RFM (Recencia, Frecuencia, Monto) con K-Means.
+* El gráfico muestra la segmentación de clientes utilizando el modelo RFM (Recencia, Frecuencia, Monto) con K-Means.
 
-Eje X (Recencia): número de días desde la última compra. Valores más bajos indican clientes recientes.
+* Eje X (Recencia): número de días desde la última compra. Valores más bajos indican clientes recientes.
 
-Eje Y (Monto): total gastado por cliente en ARS.
+* Eje Y (Monto): total gastado por cliente en ARS.
 
-Cada color representa un segmento detectado por K-Means:
+## Cada color representa un segmento detectado por K-Means:
 
 🟦 Segmento 0: clientes de bajo gasto y compras recientes → perfil de clientes nuevos o básicos.
 
@@ -85,7 +89,7 @@ Cada color representa un segmento detectado por K-Means:
 
 🟥 Segmento 3: clientes de alto gasto en el pasado, pero con alta recencia → clientes en riesgo de abandono, ideales para campañas de retención.
 
-📌 Conclusiones
+## 📌 Conclusiones
 
 El modelo permite diferenciar clientes activos, leales, VIPs y clientes en riesgo.
 
