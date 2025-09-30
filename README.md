@@ -40,8 +40,9 @@ El archivo `clientes_ficticios.csv` contiene:
 
 ## Preparación de la Tabla RFM
   rfm = df[['ID_CLIENTE','RECENCIA','N_COMPRAS','MONTO_TOTAL']].copy()
-rfm.columns = ['ID_CLIENTE','Recencia','Frecuencia','Monto']
-rfm.head()
+  rfm.columns = ['ID_CLIENTE','Recencia','Frecuencia','Monto']
+  rfm.head()
+
 <img width="392" height="196" alt="image" src="https://github.com/user-attachments/assets/ae645afa-a430-4dcb-a32b-9a46e74c526e" />
 
 
