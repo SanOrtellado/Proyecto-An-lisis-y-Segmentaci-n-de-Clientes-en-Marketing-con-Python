@@ -22,7 +22,7 @@ Este proyecto demuestra cómo aplicar **análisis RFM (Recencia, Frecuencia, Mon
 
 / Machine Learning
 
-// Cada una se conecta con las actividades específicas que mencionaba el texto (financiación, ETL, recomendaciones, portadas dinámicas, etc.
+// Cada una se conecta con las actividades específicas que mencionaba el texto (financiación, ETL, recomendaciones, portadas dinámicas, etc.)
 
 
 ## 📂 Archivos incluidos
@@ -86,17 +86,17 @@ El archivo `clientes_ficticios.csv` contiene:
 
 ## 📌 Conclusiones
 
-El modelo permite diferenciar clientes activos, leales, VIPs y clientes en riesgo.
+* El modelo permite diferenciar clientes activos, leales, VIPs y clientes en riesgo.
 
-Estos insights pueden usarse para estrategias de marketing personalizadas:
+* Estos insights pueden usarse para estrategias de marketing personalizadas:
 
-Descuentos para clientes en riesgo.
+* Descuentos para clientes en riesgo.
 
-Programas de fidelización para leales.
+* Programas de fidelización para leales.
 
-Promociones exclusivas para VIPs.
+* Promociones exclusivas para VIPs.
 
-Campañas de bienvenida para nuevos.
+* Campañas de bienvenida para nuevos.
 
 
 ## 🚀 Objetivo del proyecto
