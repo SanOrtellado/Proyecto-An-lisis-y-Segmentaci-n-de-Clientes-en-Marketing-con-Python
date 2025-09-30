@@ -6,12 +6,8 @@ Este proyecto demuestra cómo aplicar **análisis RFM (Recencia, Frecuencia, Mon
 - `clientes_ficticios.csv` → Dataset ficticio con 50 clientes y sus datos de compras.  
 - `proyecto_marketing_python.ipynb` → Notebook en Python (ejecutar en Jupyter o Google Colab) con el análisis paso a paso.
 
-import pandas as pd
-import numpy as np
-import seaborn as sns
-import matplotlib.pyplot as plt
-from sklearn.cluster import KMeans
-from sklearn.preprocessing import StandardScaler
+<img width="426" height="158" alt="image" src="https://github.com/user-attachments/assets/f43be390-f8cf-4ef0-bd5c-c739ad349284" />
+
  
 
 ## 🧾 Descripción del dataset
